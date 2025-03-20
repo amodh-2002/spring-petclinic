@@ -23,12 +23,6 @@ pipeline {
                 sh 'mvn test'  // Run unit tests
             }
         }
-
-        stage('Code Analysis') {
-            steps {
-                sh 'mvn sonar:sonar'  // Example: Run SonarQube analysis (if configured)
-            }
-        }
     }
 
     post {
