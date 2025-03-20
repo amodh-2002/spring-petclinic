@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/example/repo.git'  // Replace with your repository
+                git 'https://github.com/amodh-2002/spring-petclinic.git'  // Replace with your repository
             }
         }
 
